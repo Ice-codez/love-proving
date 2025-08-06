@@ -1,0 +1,137 @@
+body {
+font-family: Arial, sans-serif;
+background-color: lab(91.28% 3.05 1.08);
+margin: 0;
+padding: 0;
+}
+
+h1, h2, h3 {
+color: #7d1f1f;
+}
+
+h1 {
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+h3 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+}
+
+section {
+margin: 20px;
+padding: 20px;
+background-color: hsl(0, 62%, 61%);
+border-radius: 30px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+form {
+    margin: 10px auto;
+    padding: 10px 20px 40px;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(125, 38, 38, 0.819);
+}
+
+fieldset {
+    margin: 0px 0px 30px;
+    padding: 10px 10px;
+    border:rgba(185, 56, 56, 0.507) solid 5px;
+    border-radius: 20px
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #a62929;
+    border: 2px solid #b63a3a;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    transition: border 0.2s;
+}
+
+input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #f23750;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.5px;
+    left: -1.5px;
+    box-shadow: #f23750 0 0 0 1px, #ee7383 0 0 0 1px inset;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border:hsl(0, 62%, 61%) solid 2px;
+    background-color: rgb(233, 187, 195);
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(171, 60, 62, 0.819);
+}
+
+select {
+    border-radius: 5px;
+    border:hsl(0, 62%, 61%) solid 2px;
+    background-color: rgb(233, 187, 195);
+}
+
+option {
+    text-align: center;
+}
+
+button {
+    background:#ef9191;
+    border: hsl(0, 62%, 61%) solid 1px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px
+}
+
+button:hover {
+    color:hsl(0, 89%, 57%)
+}
+
+.button-text {
+    font-weight: bold;
+    color: #b55555;
+}
+
+hr {
+    border: 2.5px solid rgba(196, 77, 77, 0.819);
+}
+
+a {
+    color: #ca2a2a;
+    text-decoration: none;
+}
+
+footer p {
+    font-style: italic;
+    color:hsl(0, 98%, 76%)
+}
